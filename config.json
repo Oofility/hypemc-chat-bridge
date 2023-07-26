@@ -1,0 +1,97 @@
+{
+  "minecraft": {
+    "bot": {
+      "prefix": "!",
+      "messageFormat": " »",
+      "messageRepeatBypassLength": 24
+    },
+    "fragBot": {
+      "enabled": true,
+      "whitelist": true,
+      "customWhitelist": [],
+      "blacklist": true,
+      "blacklisted": []
+    },
+    "guild": {
+      "guildExp": 30000
+    },
+    "API": {
+      "hypixelAPI": "https://api.hypixel.net",
+      "hypixelAPIkey": "26f7d118-da8f-4f15-b6f7-32266247cdd2",
+
+      "antiSniperAPI": "https://api.antisniper.net",
+      "antiSniperKey": "4f041dba-4948-44bc-96f2-2c2871983654",
+
+      "playerDBAPI": "https://playerdb.co/api/player/minecraft",
+
+      "pixelicAPI": "https://api.pixelic.de",
+      "pixelicAPIkey": "b898302af9b64367b63efc4a737be884",
+
+      "imgurAPIkey": "2f096b335724c82"
+    },
+    "guildRequirements": {
+      "enabled": true,
+      "autoAccept": true,
+      "requirements": {
+        "bedwarsStars": 0,
+        "bedwarsStarsWithFKDR": 0,
+        "bedwarsFKDR": 0,
+
+        "skywarsStars": 0,
+        "skywarsStarsWithKDR": 0,
+        "skywarsKDR": 0,
+
+        "duelsWins": 0,
+        "duelsWinsWithWLR": 0,
+        "duelsWLR": 0,
+
+        "senitherWeight": 0,
+        "lilyWeight": 0,
+        "skyblockLevel": 0
+      }
+    },
+    "skyblockEventsNotifications": {
+      "enabled": false,
+      "notifiers": {
+        "BANK_INTEREST": false,
+        "DARK_AUCTION": false,
+        "ELECTION_BOOTH_OPENS": false,
+        "ELECTION_OVER": false,
+        "FALLEN_STAR_CULT": false,
+        "FEAR_MONGERER": false,
+        "JACOBS_CONTEST": false,
+        "JERRYS_WORKSHOP": false,
+        "NEW_YEAR_CELEBRATION": false,
+        "SEASON_OF_JERRY": false,
+        "SPOOKY_FESTIVAL": false,
+        "TRAVELING_ZOO": false
+      }
+    }
+  },
+  "discord": {
+    "bot": {
+      "token": "OTI5NzkxNDY3Njk2ODI0MzUx.G_mWRt.Z-kvxinY_FwmIblv8cB88ovZGg2loJ3u6J6JiU",
+      "serverID": "729369344504496190"
+    },
+    "channels": {
+      "guildChatChannel": "874752608353546322",
+      "officerChannel": "996049965891719208",
+      "loggingChannel": "1063772142669418496",
+      "debugMode": true,
+      "debugChannel": "996050928316715089"
+    },
+    "roles": {
+      "commandRole": "1129488247786057728"
+    },
+    "other": {
+      "messageMode": "minecraft",
+      "filterMessages": true,
+      "joinMessage": false
+    }
+  },
+  "web": {
+    "enabled": true,
+    "port": 1439
+  }
+}
+  
